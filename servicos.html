@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Willian</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+         <nav>
+            <ul>
+                <li><a href="index.html" class="link-menu">Home</a></li>
+                <li><a href="#" class="link-menu">Sobre</a></li>
+                <li><a href="servicos.html" class="link-menu">Serviços</a></li>
+                <li><a href="contato.html" class="link-menu">Contato</a></li>
+            </ul>
+        </nav>
+        <button class="botao-login">Login</button>
+    </header>
+    <main>
+        <!-- abre uma nova aba target="_blank" -->
+         <!-- define o link  href="compra.html" -->
+        <ul class="servicos">
+            <li><a target="_blank" href="compra.html" class="lista-servicos">
+                    <h2 class="h2-servicos">Banho Premium Max</h2>
+                    <img src="img/banho.png" class="img-card">
+                    <p class="preco">R$ 85,99</p>
+                </a></li>
+            <li><a target="_blank" href="compra.html" class="lista-servicos">
+                    <h2 class="h2-servicos">Ração Premium Super Max</h2>
+                    <img src="img/racao.png" class="img-card">
+                    <p class="preco">R$ 70,00</p>
+                </a></li>
+            <li><a target="_blank" href="compra.html" class="lista-servicos">
+                    <h2 class="h2-servicos">Vacina Especial</h2>
+                    <img src="img/vacina.png" class="img-card">
+                    <p class="preco">R$ 100,00</p>
+                </a></li>
+        </ul>
+        <button onclick = "whatzap()" class=" "agenda> Agendar pet</button>
+    </main>
+        
+    <footer>
+        <p>&copy; 2026 Willian Bondade</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
